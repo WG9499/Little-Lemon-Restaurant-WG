@@ -1,0 +1,142 @@
+.Footer {
+  width: 100%;
+  height: 45.7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  color: white;
+  position: relative;
+}
+
+.Footer::before {
+  content: "";
+  width: 100%;
+  height: 45.7rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(73, 94, 87);
+  z-index: -1;
+}
+
+@media (max-width: 1120px) {
+  .Footer {
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 840px) {
+  .Footer {
+    height: 40rem;
+    overflow-x: hidden;
+  }
+  .Footer::before {
+    height: 40rem;
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 700px) {
+  .Footer {
+    height: 90rem;
+    overflow-x: hidden;
+  }
+  .Footer::before {
+    height: 90rem;
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 337px) {
+  .Footer {
+    height: 95rem;
+    overflow-x: hidden;
+  }
+  .Footer::before {
+    height: 95rem;
+    overflow-x: hidden;
+  }
+}
+
+.FooterContent {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+@media (max-width: 700px) {
+  .FooterContent {
+    flex-direction: column;
+    margin-left: 17rem;
+    overflow-x: hidden;
+  }
+}
+
+.copyright {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: center;
+  margin-top: 8rem;
+}
+
+@media (max-width: 700px) {
+  .copyright {
+    margin-left: 0.5rem;
+    overflow-x: hidden;
+  }
+}
+
+.copyright a {
+  text-decoration: underline;
+  line-height: 150%;
+}
+
+.image {
+  width: 15rem;
+  height: 20rem;
+  object-fit: cover;
+  margin-top: 6rem;
+  margin-left: 5rem;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 840px) {
+  .image {
+    display: none;
+    overflow-x: hidden;
+  }
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-top: 7rem;
+  margin-right: 10rem;
+  color: white;
+}
+
+.column h4 {
+  height: 3rem;
+  color: white;
+}
+
+.column ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.column ul li {
+  list-style: none;
+}

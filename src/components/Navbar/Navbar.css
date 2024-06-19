@@ -1,0 +1,47 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin: 0 15px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+ul li img {
+  height: 35px;
+  vertical-align: middle;
+}
+
+ul li a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.orderBtn a {
+  background-color: #f8c23c;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border-radius: 1.6rem;
+  background-color: rgb(73, 94, 87);
+  text-decoration: none;
+  color: white;
+}
+
+.basketIcon {
+  height: 40px;
+  vertical-align: middle;
+}

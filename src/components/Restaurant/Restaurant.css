@@ -1,0 +1,114 @@
+.Restaurant {
+  width: 100%;
+  margin: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  padding: 2rem 0;
+  margin-top: 14.8rem;
+  gap: 4rem;
+  position: relative;
+}
+
+.Restaurant::before {
+  content: "";
+  width: 100%;
+  height: 31rem;
+  background-color: #495e57;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  margin-top: 14.8rem;
+}
+
+@media (max-width: 768px) {
+  .Restaurant::before {
+    margin-top: 9rem;
+  }
+}
+
+@media (max-width: 860px) {
+  .Restaurant::before {
+    height: 40rem;
+  }
+}
+
+@media (max-width: 840px) {
+  .Restaurant::before {
+    height: 50rem;
+  }
+  .Restaurant {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1120px) {
+  .Restaurant {
+    width: 90%;
+  }
+}
+
+.RestaurantContent {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin-left: 22%;
+}
+
+.RestaurantContent h1 {
+  color: #f4ce14;
+  width: 28rem;
+  margin-right: 8rem;
+}
+
+.RestaurantContent h2 {
+  color: white;
+  width: 25rem;
+  margin-right: 8rem;
+}
+
+.RestaurantContent p {
+  max-width: 35rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 8rem;
+}
+
+.RestaurantContent button {
+  width: fit-content;
+  margin-left: 4rem;
+  margin-right: 12rem;
+}
+
+@media (max-width: 840px) {
+  .RestaurantContent {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.RestaurantImage img {
+  object-fit: cover;
+  width: 33rem;
+  height: 36.8rem;
+  border-radius: 1.6rem;
+  margin-right: 30rem;
+}
+
+@media (max-width: 840px) {
+  .RestaurantImage {
+    margin: 0 auto;
+  }
+
+  .RestaurantImage img {
+    width: auto;
+    height: auto;
+    max-width: 25rem;
+    max-height: 30.8rem;
+    margin-left: 8rem;
+  }
+}

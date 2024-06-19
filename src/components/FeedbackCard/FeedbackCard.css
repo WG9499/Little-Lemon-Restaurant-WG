@@ -1,0 +1,54 @@
+.FeedbackCard {
+  width: 20rem;
+  height: 30rem;
+  color: black;
+  background-color: white;
+  border-radius: 8px;
+  padding: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.rating {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+.customer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.customer img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.customer .highlight {
+  font-weight: bold;
+}
+
+.testimonial {
+  width: 100%;
+  height: auto;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.testimonial::before {
+  content: open-quote;
+}
+
+.testimonial::after {
+  content: close-quote;
+}

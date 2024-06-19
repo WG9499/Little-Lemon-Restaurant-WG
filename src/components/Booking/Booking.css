@@ -1,0 +1,67 @@
+.Booking {
+  width: 66%;
+  height: auto;
+  min-height: 60rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4.3rem;
+  margin-top: 12.8rem;
+}
+
+.Booking > button {
+  max-width: 400px;
+}
+
+@media (max-width: 1120px) {
+  .Booking {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .Booking {
+    margin-top: 9rem;
+  }
+}
+
+.top {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media (max-width: 840px) {
+  .top {
+    flex-direction: column;
+  }
+
+  .top h1 {
+    text-align: center;
+  }
+}
+
+.confirmation {
+  display: grid;
+  width: 100%;
+  max-width: 400px;
+  gap: 20px;
+  font-size: 1.5rem;
+  color: #ffffff;
+  background-color: #495e57;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.confirmation h2 {
+  color: #f4ce14;
+}
+
+.confirmation span {
+  text-transform: capitalize;
+}

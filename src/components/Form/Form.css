@@ -1,0 +1,102 @@
+.Form {
+  width: 66%;
+  height: auto;
+  min-height: 70.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4.3rem;
+  margin-top: 12.8rem;
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 1120px) {
+  .Form {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .Form {
+    margin-top: 9rem;
+  }
+}
+
+.top {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media (max-width: 840px) {
+  .top {
+    flex-direction: column;
+  }
+
+  .top h1 {
+    text-align: center;
+  }
+}
+
+.form {
+  display: grid;
+  width: 100%;
+  max-width: 500px;
+  gap: 20px;
+  font-size: 2rem;
+}
+
+.form input,
+.form select {
+  font-size: 1.8rem;
+  width: 100%;
+  height: 8rem;
+  border-radius: 0.5rem;
+  outline: none;
+  padding: 0 1.5rem;
+  color: #495e57;
+  font-weight: 800;
+  background-color: #edefee;
+  border: none;
+}
+
+.form input[type="submit"] {
+  width: 100%;
+  height: 5rem;
+  border-radius: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: #000000;
+  background-color: #f4ce14;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 0 1.3rem;
+}
+
+.form input[type="submit"]:active {
+  box-shadow: inset 0px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.form select option {
+  color: #495e57;
+  font-weight: 800;
+  background-color: #edefee;
+  border-bottom: 1px dashed #495e57;
+}
+
+.form select option:checked,
+.form select option:hover {
+  color: #ffffff;
+  background-color: #495e57 !important;
+}
+
+.form-message-error {
+  color: red;
+  margin-top: -2rem;
+}
