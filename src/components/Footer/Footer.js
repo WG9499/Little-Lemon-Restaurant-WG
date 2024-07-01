@@ -1,6 +1,6 @@
 import React from "react";
 import { HashLink } from "react-router-hash-link";
-import restaurant from "../../assets/resto.jpg";
+import restaurant from "../../assets/llrfooterimg.png";
 import "./Footer.css";
 
 const Footer = () => {
