@@ -16,3 +16,16 @@ Built using React and other modern web technologies, the website not only serves
 
 -User-Friendly Design:
 The clean, engaging interface and responsive layout ensure that users can easily navigate the site on various devices, providing a seamless reservation experience.
+
+# Samples
+![llrestaurant1](https://github.com/user-attachments/assets/92c1a9b1-462e-4781-a3fa-d96675fec200)
+![llrestaurant2](https://github.com/user-attachments/assets/a525ed57-87b9-4437-875c-e035e15f02e8)
+![llrestaurant3](https://github.com/user-attachments/assets/a9c18f58-3918-43aa-8cd7-7776051c3d52)
+![llrestaurant4](https://github.com/user-attachments/assets/975174f3-52ef-47e6-abce-bbc68edf801e)
+![llrestaurant5](https://github.com/user-attachments/assets/b0b1ac1f-0fcb-4ce8-a22f-4266bd190d94)
+![llrestaurant6](https://github.com/user-attachments/assets/e15a53ee-ee74-4386-8e59-a3f96839a2ab)
+![llrestaurant7](https://github.com/user-attachments/assets/f18f2979-9856-4b9f-a2eb-0a84f8fa17b6)
+
+
+
+
