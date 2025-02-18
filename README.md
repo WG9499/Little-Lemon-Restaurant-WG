@@ -1,6 +1,7 @@
 # Little Lemon Restaurant
 This project demonstrates your ability to create a fully functional, real-world web application. It combines user experience design with robust frontend development practices to solve a common problem—making restaurant reservations for significant occasions—while also serving as a portfolio piece for potential employers or clients.
-Link : https://llrestaurant.netlify.app/ 
+## Link : https://llrestaurant.netlify.app/ 
+## Figma UI : https://www.behance.net/gallery/219608747/Little-lemon-restaurant-figma-wireframes-and-prototypes 
 
 ## Key Features :
 
